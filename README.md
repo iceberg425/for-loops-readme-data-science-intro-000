@@ -128,7 +128,7 @@ Note that the range object is marking the starting and ending point, and excludi
 
 ```python
 for i in list(range(0, len(countries))):
-    print(cities[index]+",", countries[index])
+    print(cities[i]+",", countries[i])
 ```
 
 And as we add or subtract countries, we will still be iterating through our list elements.
@@ -138,7 +138,7 @@ And as we add or subtract countries, we will still be iterating through our list
 countries.append('Mexico')
 cities.append('Mexico City')
 for i in list(range(0, len(countries))):
-    print(cities[index]+",", countries[index])
+    print(cities[i]+",", countries[i])
 ```
 
 ## Iterating through different datatypes
